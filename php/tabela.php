@@ -30,7 +30,7 @@ if( $conn ){
                 <td><?php echo $item['nome']; ?></td>
                 <td><?php echo $item['email']; ?></td>
                 <td><a href="editar.php?id=<?php echo $item['id']; ?> " >Editar</a></td>
-                <td><a href="excluir.php?id=<?php echo $item['id']; ?>" >Excluir</a></td>
+                <td><a href="excluir.php?id=<?php echo $item['id']; ?> " >Excluir</a></td>
         
             </tr>
             <?php

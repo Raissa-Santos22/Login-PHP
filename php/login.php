@@ -7,6 +7,7 @@ $connection = $usuario->conecta();
 
 if($connection){
     if(isset($_POST['email'])){
+        $nome = $_POST['nome'];
         $email = $_POST['email'];
         $senha = $_POST['senha'];
 

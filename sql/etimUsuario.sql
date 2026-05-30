@@ -1,7 +1,7 @@
 CREATE DATABASE etimUsuario;
 
-USE usuario;
-CREATE TABLE etimUsuario(
+USE etimUsuario;
+CREATE TABLE Usuario(
     id INT PRIMARY KEY AUTO_INCREMENT,
     nome VARCHAR(255) NOT NULL,
     email VARCHAR(255) NOT NULL UNIQUE,
