@@ -35,6 +35,7 @@ if(isset($_POST['nome'])){
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastrar Usuario</title>
+     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
     <h2>Cadastro de Usuarios </h2>
@@ -42,7 +43,7 @@ if(isset($_POST['nome'])){
         <input type="text" name="nome" placeholder ="Informe o nome" id=""><p>
         <input type="text" name="email" placeholder="Informe o email" id=""><p>
         <input type="text" name="senha" placeholder="Informe a senha" id=""><p>
-        <input type="submit"name= "btn" value="Cadastrar">
+       <button type="submit">Cadastrar</button>
     </form>
 </body>
 </html>
