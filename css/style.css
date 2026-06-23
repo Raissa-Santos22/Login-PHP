@@ -11,7 +11,7 @@ body {
 
 h2 {
     margin-bottom: 15px;
-    color: rgb(73, 73, 73);
+    color: rgb(136, 126, 126);
 }
 
 form {
@@ -35,18 +35,16 @@ button {
     width: 220px;
     padding: 8px;
     cursor: pointer;
-    background: rgb(34, 145, 34);
+    background-color: #0dcaf0;;
     color: white;
     border: none;
     border-radius: 2px;
 }
 
 button:hover {
-    background: #064906;
+    background: #29899c;
 }
 
-a{
-    margin-top: 20px;
-}
+
 
 

@@ -13,7 +13,7 @@ if (isset($_POST['id'])) {
 
     $usuario->alterarUsuario($id, $nome, $email);
 
-    header("Location: tabela.php");
+    header("Location: alteracao.php");
     exit;
 
 } else {
